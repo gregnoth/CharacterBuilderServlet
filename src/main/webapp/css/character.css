@@ -1,0 +1,268 @@
+@charset "ISO-8859-1";
+
+body{}
+
+input.name{
+	position: absolute;
+	top: 220px;
+	left: 120px;
+	width: 480px;
+	height: 40px;
+	border: none;
+	background-color: #eeeeee;
+	font: 30px verdana;
+}
+
+#characterClass{
+	position: absolute;
+	top: 188px;
+	left: 652px;
+	width: 188px;
+	height: 30px;
+	border: none;
+	background-color: #eeeeee;
+	font: 20px verdana;
+}
+
+#inspiration{
+	position: absolute;
+	top: 378px;
+	left: 253px;
+	width: 48px;
+	height: 37px;
+	border: none;
+	background-color: #eeeeee;
+	font: 20px verdana;
+	text-align: center;	
+}
+
+#proficiencyBonus{
+	position: absolute;
+	top: 457px;
+	left: 256px;
+	width: 48px;
+	height: 37px;
+	border: none;
+	background-color: #eeeeee;
+	font: 20px verdana;
+	text-align: center;	
+}
+
+input.savingThrow{
+	width: 10px;
+	height: 10px;
+	border: none;	
+	background-color: #eeeeee;
+}
+
+#strengthSave{	   
+	position: absolute;	
+	width: 10px;
+	height: 10px;
+	top: 546px;
+	left: 258px;
+}
+
+#dexteritySave{
+	position: absolute;
+	top: 578px;
+	left: 258px;
+}
+
+#constitutionSave{
+	position: absolute;
+	top: 611px;
+	left: 258px;
+}
+
+#intelligenceSave{	   
+	position: absolute;	
+	top: 643px;
+	left: 258px;
+}
+
+#wisdomSave{
+	position: absolute;
+	top: 675px;
+	left: 258px;
+}
+
+#charismaSave{	   
+	position: absolute;	
+	top: 708px;
+	left: 258px;
+}
+
+
+#level{
+	position: absolute;
+	top: 188px;
+	left: 848px;
+	width: 47px;
+	height: 30px;
+	border: none;
+	background-color: #eeeeee;
+	font: 20px verdana;
+	text-align: center;	
+}
+
+input.characterData{
+	width: 228px;
+	height: 30px;
+	border: none;
+	background-color: #eeeeee;
+	font: 20px verdana;	
+}
+
+#race{
+	position: absolute;
+	top: 188px;
+	left: 910px;	
+}
+
+#playerName{
+	position: absolute;
+	top: 248px;
+	left: 910px;	
+}
+
+#alignment{
+	position: absolute;
+	top: 188px;
+	left: 1154px;	
+}
+
+#characterBackground{
+	position: absolute;
+	top: 248px;
+	left: 1154px;		
+}
+
+#experiencePoints{
+	width: 243px;
+	height: 30px;
+	border: none;
+	background-color: #eeeeee;
+	font: 20px verdana;	
+	position: absolute;
+	top: 248px;
+	left: 652px;	
+}
+
+input.attribute{
+	width: 65px;
+	height: 65px;
+	border: none;
+	background-color: #eeeeee;
+	font: 40px verdana;	
+	text-align: center;	
+}
+
+input.attributeModifier{
+	width: 35px;
+	height: 20px;
+	border: none;
+	background-color: #eeeeee;
+	font: 16px verdana;
+	text-align: center;		
+}
+
+#strengthModifier{
+	position: absolute;
+	top: 523px;
+	left: 128px;	
+}
+
+#strength {
+	position: absolute;
+	top: 437px;
+	left: 112px;	
+}
+
+#dexterityModifier{
+	position: absolute;
+	top: 707px;
+	left: 128px;	
+}
+#dexterity {
+	position: absolute;
+	top: 620px;
+	left: 112px;	
+}
+
+#constitutionModifier{
+	position: absolute;
+	top: 890px;
+	left: 128px;	
+}
+#constitution {
+	position: absolute;
+	top: 803px;
+	left: 112px;	
+}
+
+#intelligenceModifier{
+	position: absolute;
+	top: 1073px;
+	left: 128px;	
+}
+#intelligence{
+	position: absolute;
+	top: 986px;
+	left: 112px;	
+}
+
+#wisdomModifier{
+	position: absolute;
+	top: 1257px;
+	left: 128px;	
+}
+#wisdom{
+	position: absolute;
+	top: 1169px;
+	left: 112px;	
+}
+
+#charismaModifier{
+	position: absolute;
+	top: 1439px;
+	left: 128px;	
+}
+#charisma{
+	position: absolute;
+	top: 1352px;
+	left: 112px;	
+}
+
+#generateScores{
+	background: url("../image/sixsided50.png");	
+	position: absolute;
+	top: 442px;
+	left: 20px;	
+	width: 50px;
+	height: 50px;
+}
+
+#generateScoresDice{
+	background: #4eb5db;
+	font: 20px Papyrus Verdana;	
+	position: absolute;
+	top: 402px;
+	left: 25px;	
+	width: 40px;
+	height: 40px;	
+}
+
+
+div.background{
+	background: url("../image/charsheet1500-2.png");
+	background-color: black;
+	height:6000px;
+	width:1500px; 
+}
+
+
+p{
+	font:20px verdana; 
+	color:blue;
+}
